@@ -1,0 +1,230 @@
+*{
+    font-family: "Poppins", sans-serif
+}
+
+
+header .menu ul li a {
+    padding:0 10px;
+    text-decoration: none;
+    color:black;
+
+}  
+header .menu ul li:first-child(1){
+    color: #8CBAFF;
+}
+header .menu ul li:hover a{
+    color: #8CBAFF;
+}
+header{
+padding: 15px 0;
+box-shadow:0 0 20px 0 #ddd;
+position: fixed;
+top: 0;
+width: 100%;
+background: #fff;
+z-index: 1;
+}
+.discover{
+    /* background: #F9F9FF; */
+    margin: 100px 0;
+
+}
+.discover h5{
+   font-weight: 700;
+}
+.discover h1{
+    font-size: 30px;
+    margin: 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.2em 
+}
+.discover p{
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 40px ;
+}
+.discover a{
+    padding: 15px 30px;
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+text-decoration: none;
+color: #fff;
+font-weight: 700;
+line-height: 42px;
+}
+.discover a:hover{
+box-shadow: 5px 10px 20px 0 #b3b9f1;;
+}
+.service{
+    margin: 5em 0;
+}
+.service .servic-content{
+    width: 43%;
+    margin: auto;
+}
+.service .servic-content h1{
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2em
+}
+.service .servic-content p{
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.service .servic-header p{
+    margin: 20px 30px;
+    color: #777;
+}
+.service .servic-header i{
+    margin-bottom: 15px;
+}
+.service .servic-header h4{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.service .servic-header:hover i,
+.service .servic-header:hover h4{
+    color: #8CBAFF;
+}
+
+.number{
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+padding: 5em 0;
+color: #fff;
+}
+.number h1{
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+#projects .pro-header{
+    padding: 4em 0;
+    font-size: 23px;
+}
+#projects .pro-img{
+    position: relative;
+}
+#projects .pro-img .pro-hover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, #aeb6f7 0%, #a9d5f5 100%);
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transition: opacity .5s ease-in-out;
+}
+#projects .pro-img:hover .pro-hover{
+opacity: 1;
+}
+#projects .pro-img > img{ 
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+/* projects end  */
+#client{
+    background: #F9F9FF;
+    margin-top: 5em;
+}
+#client .client-text{
+    text-align: center;
+    margin-top: 4em;
+}
+#client .client-text h1{
+  font-size: 36px;
+  text-align: center;
+  color: #222222;
+  line-height: 1.2em;
+  padding-top: 4em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif
+}
+#client .client-text p{
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+#client .client-text .client-item{
+    background: #fff;
+    width: 100%;
+    padding-bottom: 2em;
+    margin: 4em 0;
+}
+#client .client-text .client-item p{
+    display: flex;
+    align-items: flex-end;
+
+}
+#client .client-text .client-item h4{
+padding-top: 20px;
+}
+/* client end  */
+.choose{
+    text-align: center;
+    margin: 5em ;
+    
+}
+.choose h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 2em 0;
+}
+.choose .choose-hover{
+    background: #F9F9FF;
+   width: 100%;
+   text-align: center;
+   margin:3em 0;
+   left: 0;
+   right: 0;
+
+}
+.choose .choose-hover:hover{
+    background: #68B4FC;
+    color: #fff;
+    transform: scaleY(1.2);
+}
+
+.choose .choose-hover .chose-tex{
+    text-align: center;
+    background: #F9F9FF;
+    transition: all 0.3s ease 0s;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    background-color: rgba(132, 144, 255, 0.1);
+    border-radius: 100px;
+    align-items: center;
+    display: grid;
+    border: 30px solid rgba(132, 144, 255, 0.1);
+}
+.choose .choose-hover ul li{
+padding: 20px 0;
+}
+.choose .choose-hover h2{
+    font-size: 40px;
+}
+.choose .choose-hover h3{
+    font-size: 20px;
+}
+/* choose end  */
